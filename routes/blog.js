@@ -9,6 +9,12 @@ router.get('/', (req, res, next)=>{
 router.get('/:article', (req, res, next)=>{
     res.render('blog-details')
 })
+router.get('/:article', (req, res, next)=>{
+    res.render('blog-details')
+})
+router.get('/:article', (req, res, next)=>{
+    res.render('blog-details')
+})
 
 
 module.exports = router;
