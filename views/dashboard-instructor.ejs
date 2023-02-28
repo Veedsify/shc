@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/assets/plugins/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="/assets/plugins/fontawesome/css/all.min.css">
 
-    <link rel="stylesheet" href="/assets/plugins/feather/feather.css">
+    <link rel="stylesheet" href="/assets/css/feather.css">
 
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
@@ -437,7 +437,7 @@
 
         <div class="page-banner instructor-bg-blk">
             <div class="container">
-                <div class="row align-items-center student-group">
+                <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="instructor-profile d-flex align-items-center">
                             <div class="instructor-profile-pic">
@@ -493,15 +493,10 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="my-student-list">
-                            <ul>
-                                <li><a class="active" href="deposit-instructor-dashboard.html">Dashboard</a></li>
-                                <li><a href="dashboard-instructor.html">Courses</a></li>
-                                <li><a href="withdrawal-instructor.html">Withdrawal</a></li>
-                                <li><a href="#">Purchase history</a></li>
-                                <li><a href="deposit-instructor.html">Deposit</a></li>
-                                <li class="mb-0"><a href="transactions-instructor.html">Transactions</a></li>
-                            </ul>
+                        <div class="instructor-profile-text">
+                            <p>I am an Innovation designer focussing on UX/UI based in Berlin. As a creative resident at
+                                Figma explored the city of the future and how new technologies like AI, voice control,
+                                and augmented reality will change our interfaces.</p>
                         </div>
                     </div>
                 </div>
@@ -509,201 +504,208 @@
         </div>
 
 
-        <div class="page-content">
+        <section class="page-content course-sec">
             <div class="container">
                 <div class="row">
-
-                    <div class="col-xl-12 col-md-12">
-                        <div class="settings-top-widget student-deposit-blk">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6 d-flex">
-                                    <div class="card stat-info ttl-tickets">
-                                        <div class="card-body">
-                                            <div class="view-all-grp d-flex">
-                                                <div class="student-ticket-view">
-                                                    <h3>50</h3>
-                                                    <p>Purchased Courses</p>
-                                                    <a href="dashboard-instructor.html">View All</a>
-                                                </div>
-                                                <div class="img-deposit-ticket">
-                                                    <img src="/assets/img/students/book.svg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 d-flex">
-                                    <div class="card stat-info open-tickets">
-                                        <div class="card-body">
-                                            <div class="view-all-grp d-flex">
-                                                <div class="student-ticket-view">
-                                                    <h3>30</h3>
-                                                    <p>Total Transactions</p>
-                                                    <a href="transactions-instructor.html">View All</a>
-                                                </div>
-                                                <div class="img-deposit-ticket">
-                                                    <img src="/assets/img/students/receipt-text.svg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 d-flex">
-                                    <div class="card stat-info close-tickets">
-                                        <div class="card-body">
-                                            <div class="view-all-grp d-flex">
-                                                <div class="student-ticket-view">
-                                                    <h3>20</h3>
-                                                    <p>Total Deposit</p>
-                                                    <a href="deposit-student.html">View All</a>
-                                                </div>
-                                                <div class="img-deposit-ticket">
-                                                    <img src="/assets/img/students/empty-wallet-tick.svg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 d-flex">
-                                    <div class="card stat-info medium-tickets">
-                                        <div class="card-body">
-                                            <div class="view-all-grp d-flex">
-                                                <div class="student-ticket-view">
-                                                    <h3>$2055</h3>
-                                                    <p>Total Withdraw</p>
-                                                    <a href="withdrawal-instructor.html">View All</a>
-                                                </div>
-                                                <div class="img-deposit-ticket">
-                                                    <img src="/assets/img/students/empty-wallet-change.svg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 d-flex">
-                                    <div class="card stat-info blue-tickets">
-                                        <div class="card-body">
-                                            <div class="view-all-grp d-flex">
-                                                <div class="student-ticket-view">
-                                                    <h3>30</h3>
-                                                    <p>Total Student</p>
-                                                </div>
-                                                <div class="img-deposit-ticket">
-                                                    <img src="/assets/img/students/profile-user.svg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 d-flex">
-                                    <div class="card stat-info ttl-tickets">
-                                        <div class="card-body">
-                                            <div class="view-all-grp d-flex">
-                                                <div class="student-ticket-view">
-                                                    <h3>50</h3>
-                                                    <p>Total Approved Course</p>
-                                                    <a href="dashboard-instructor.html">View All</a>
-                                                </div>
-                                                <div class="img-deposit-ticket">
-                                                    <img src="/assets/img/students/book.svg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col-lg-12">
+                        <div class="card instructor-card">
+                            <div class="card-header">
+                                <h4>My Courses</h4>
+                                <a href="add-course.html" class="btn btn-dark">Create New Course</a>
                             </div>
-                        </div>
-                        <div class="settings-widget">
-                            <div class="settings-inner-blk p-0">
-                                <div class="comman-space pb-0">
-                                    <div
-                                        class="filter-grp ticket-grp d-flex align-items-center justify-content-between">
-                                        <h3>Latest Transactions</h3>
+                            <div class="card-body">
+                                <div class="instructor-grid">
+                                    <div class="product-img">
+                                        <a href="course-details.html">
+                                            <img src="/assets/img/course/course-10.jpg" class="img-fluid" alt="">
+                                        </a>
                                     </div>
-                                    <div class="settings-tickets-blk table-responsive">
-
-                                        <table class="table table-nowrap mb-0">
-                                            <thead>
-                                                <tr>
-                                                    <th>Referred ID</th>
-                                                    <th>Details</th>
-                                                    <th>Amount</th>
-                                                    <th>Post Balance</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td><a href="javascript:;">K2WX7JJ6R1UA</a></td>
-                                                    <td>10 USD Refunded from withdrawal rejection </td>
-                                                    <td><span class="text-success">+ $45.00</span></td>
-                                                    <td>$45.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="javascript:;">9RVE1N1TA1H3</a></td>
-                                                    <td>Deposit Via Stripe Hosted - USD </td>
-                                                    <td><span class="text-success">+ $75.00</span></td>
-                                                    <td>$75.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="javascript:;">C83Z7EQ4A1WX</a></td>
-                                                    <td>Deposit Via Stripe Hosted - USD </td>
-                                                    <td><span class="text-success">+ $100.00</span></td>
-                                                    <td>$100.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="javascript:;">1C6A5M4YPV39</a></td>
-                                                    <td>Withdraw Via Bank withdrawal </td>
-                                                    <td><span class="text-danger">- $5.00</span></td>
-                                                    <td>$5.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="javascript:;">K2WX7JJ6R1UA</a></td>
-                                                    <td>10 USD Refunded from withdrawal rejection </td>
-                                                    <td><span class="text-danger">- $25.00</span></td>
-                                                    <td>$25.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="javascript:;">KSM5CW4EOEGQ</a></td>
-                                                    <td>Added Balance Via Admin </td>
-                                                    <td><span class="text-success">+ $160.00</span></td>
-                                                    <td>S160.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="javascript:;">K2WX7JJ6R1UA</a></td>
-                                                    <td>10 USD Refunded from withdrawal rejection </td>
-                                                    <td><span class="text-success">+ $150.00</span></td>
-                                                    <td> $150.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="javascript:;">9RVE1N1TA1H3</a></td>
-                                                    <td>Deposit Via Stripe Hosted - USD </td>
-                                                    <td><span class="text-success">+ $45.00</span></td>
-                                                    <td>$45.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="javascript:;">C83Z7EQ4A1WX</a></td>
-                                                    <td>Deposit Via Stripe Hosted - USD </td>
-                                                    <td><span class="text-success">+ $10.00</span></td>
-                                                    <td>$10.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="javascript:;">1C6A5M4YPV39</a></td>
-                                                    <td>Withdraw Via Bank withdrawal </td>
-                                                    <td><span class="text-danger">- $10.00</span></td>
-                                                    <td>$10.00</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-
+                                    <div class="instructor-product-content">
+                                        <div class="head-course-title">
+                                            <h3 class="title"><a href="course-details.html">Information About UI/UX
+                                                    Design Degree</a></h3>
+                                        </div>
+                                        <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
+                                            <div class="rating-img d-flex align-items-center">
+                                                <img src="/assets/img/icon/icon-01.svg" alt="">
+                                                <p>12+ Lesson</p>
+                                            </div>
+                                            <div class="course-view d-flex align-items-center">
+                                                <img src="/assets/img/icon/icon-02.svg" alt="">
+                                                <p>9hr 30min</p>
+                                            </div>
+                                        </div>
+                                        <div class="rating mb-0">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor-grid">
+                                    <div class="product-img">
+                                        <a href="course-details.html">
+                                            <img src="/assets/img/course/course-11.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="instructor-product-content">
+                                        <div class="head-course-title">
+                                            <h3 class="title"><a href="course-details.html">Wordpress for Beginners -
+                                                    Master Wordpress Quickly</a></h3>
+                                        </div>
+                                        <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
+                                            <div class="rating-img d-flex align-items-center">
+                                                <img src="/assets/img/icon/icon-01.svg" alt="">
+                                                <p>10+ Lesson</p>
+                                            </div>
+                                            <div class="course-view d-flex align-items-center">
+                                                <img src="/assets/img/icon/icon-02.svg" alt="">
+                                                <p>7hr 20min</p>
+                                            </div>
+                                        </div>
+                                        <div class="rating mb-0">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="d-inline-block average-rating"><span>4.2</span> (20)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor-grid">
+                                    <div class="product-img">
+                                        <a href="course-details.html">
+                                            <img src="/assets/img/course/course-12.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="instructor-product-content">
+                                        <div class="head-course-title">
+                                            <h3 class="title"><a href="course-details.html">Sketch from A to Z (2022):
+                                                    Become an app designer</a></h3>
+                                        </div>
+                                        <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
+                                            <div class="rating-img d-flex align-items-center">
+                                                <img src="/assets/img/icon/icon-01.svg" alt="">
+                                                <p>05+ Lesson</p>
+                                            </div>
+                                            <div class="course-view d-flex align-items-center">
+                                                <img src="/assets/img/icon/icon-02.svg" alt="">
+                                                <p>8hr 00min</p>
+                                            </div>
+                                        </div>
+                                        <div class="rating mb-0">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="d-inline-block average-rating"><span>4.0</span> (10)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor-grid">
+                                    <div class="product-img">
+                                        <a href="course-details.html">
+                                            <img src="/assets/img/course/course-13.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="instructor-product-content">
+                                        <div class="head-course-title">
+                                            <h3 class="title"><a href="course-details.html">Learn Angular Fundamentals
+                                                    From beginning to advance lavel</a></h3>
+                                        </div>
+                                        <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
+                                            <div class="rating-img d-flex align-items-center">
+                                                <img src="/assets/img/icon/icon-01.svg" alt="">
+                                                <p>30+ Lesson</p>
+                                            </div>
+                                            <div class="course-view d-flex align-items-center">
+                                                <img src="/assets/img/icon/icon-02.svg" alt="">
+                                                <p>10hr 30min</p>
+                                            </div>
+                                        </div>
+                                        <div class="rating mb-0">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="d-inline-block average-rating"><span>4.3</span> (25)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor-grid">
+                                    <div class="product-img">
+                                        <a href="course-details.html">
+                                            <img src="/assets/img/course/course-14.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="instructor-product-content">
+                                        <div class="head-course-title">
+                                            <h3 class="title"><a href="course-details.html">Build Responsive Real World
+                                                    Websites with HTML5 and CSS3</a></h3>
+                                        </div>
+                                        <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
+                                            <div class="rating-img d-flex align-items-center">
+                                                <img src="/assets/img/icon/icon-01.svg" alt="">
+                                                <p>20+ Lesson</p>
+                                            </div>
+                                            <div class="course-view d-flex align-items-center">
+                                                <img src="/assets/img/icon/icon-02.svg" alt="">
+                                                <p>7hr 00min</p>
+                                            </div>
+                                        </div>
+                                        <div class="rating mb-0">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor-grid mb-0">
+                                    <div class="product-img">
+                                        <a href="course-details.html">
+                                            <img src="/assets/img/course/course-15.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="instructor-product-content">
+                                        <div class="head-course-title">
+                                            <h3 class="title"><a href="course-details.html">C# Developers Double Your
+                                                    Coding Speed with Visual Studio</a></h3>
+                                        </div>
+                                        <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
+                                            <div class="rating-img d-flex align-items-center">
+                                                <img src="/assets/img/icon/icon-01.svg" alt="">
+                                                <p>50+ Lesson</p>
+                                            </div>
+                                            <div class="course-view d-flex align-items-center">
+                                                <img src="/assets/img/icon/icon-02.svg" alt="">
+                                                <p>10hr 30min</p>
+                                            </div>
+                                        </div>
+                                        <div class="rating mb-0">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="d-inline-block average-rating"><span>4.5</span> (30)</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <footer class="footer">
@@ -770,7 +772,7 @@
                                     <p>
                                         <img src="/assets/img/icon/icon-19.svg" alt="" class="img-fluid">
                                         <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                            data-cfemail="ef8b9d8a8e829c83829caf8a978e829f838ac18c8082">[email&#160;protected]</a>
+                                            data-cfemail="4d293f282c203e21203e0d28352c203d2128632e2220">[email&#160;protected]</a>
                                     </p>
                                     <p class="mb-0">
                                         <img src="/assets/img/icon/icon-21.svg" alt="" class="img-fluid">
@@ -818,6 +820,9 @@
     <script src="/assets/js/jquery-3.6.0.min.js"></script>
 
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/jquery.waypoints.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
 
     <script src="/assets/js/script.js"></script>
 </body>
