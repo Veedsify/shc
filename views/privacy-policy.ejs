@@ -16,6 +16,8 @@
 <link rel="stylesheet" href="/assets/plugins/fontawesome/css/fontawesome.min.css">
 <link rel="stylesheet" href="/assets/plugins/fontawesome/css/all.min.css">
 
+<link rel="stylesheet" href="/assets/css/feather.css">
+
 <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
@@ -34,13 +36,13 @@
 <span></span>
 </span>
 </a>
-<a href="index.html" class="navbar-brand logo">
+<a href="/" class="navbar-brand logo">
 <img src="/assets/img/logo.svg" class="img-fluid" alt="Logo">
 </a>
 </div>
 <div class="main-menu-wrapper">
 <div class="menu-header">
-<a href="index.html" class="menu-logo">
+<a href="/" class="menu-logo">
 <img src="/assets/img/logo.svg" class="img-fluid" alt="Logo">
 </a>
 <a id="menu_close" class="menu-close" href="javascript:void(0);">
@@ -49,7 +51,7 @@
 </div>
 <ul class="main-nav">
 <li>
-<a href="index.html">Home</a>
+<a href="/">Home</a>
 </li>
 <li class="has-submenu">
 <a href="">Instructor <i class="fas fa-chevron-down"></i></a>
@@ -71,7 +73,7 @@
 <li><a href="instructor-edit-profile.html">Instructor Profile</a></li>
 <li><a href="instructor-security.html">Security</a></li>
 <li><a href="instructor-social-profiles.html">Social Profiles</a></li>
-<li><a href="instructor-notification.html">Notifications</a></li>
+<li><a href="instructor-/notification">Notifications</a></li>
 <li><a href="instructor-profile-privacy.html">Profile Privacy</a></li>
 <li><a href="instructor-delete-profile.html">Delete Profile</a></li>
 <li><a href="instructor-linked-account.html">Linked Accounts</a></li>
@@ -90,7 +92,7 @@
 <li><a href="setting-edit-profile.html">Student Profile</a></li>
 <li><a href="setting-student-security.html">Security</a></li>
 <li><a href="setting-student-social-profile.html">Social profile</a></li>
-<li><a href="setting-student-notification.html">Notification</a></li>
+<li><a href="setting-student-/notification">Notification</a></li>
 <li><a href="setting-student-privacy.html">Profile Privacy</a></li>
 <li><a href="setting-student-accounts.html">Link Accounts</a></li>
 <li><a href="setting-student-referral.html">Referal</a></li>
@@ -104,9 +106,9 @@
 <li class="has-submenu active">
 <a href="">Pages <i class="fas fa-chevron-down"></i></a>
 <ul class="submenu">
-<li><a href="notifications.html">Notification</a></li>
-<li><a href="pricing-plan.html">Pricing Plan</a></li>
-<li class="active"><a href="wishlist.html">Wishlist</a></li>
+<li><a href="/notification">Notification</a></li>
+<li><a href="/pricing">Pricing Plan</a></li>
+<li><a href="/wishlist">Wishlist</a></li>
 <li class="has-submenu">
 <a href="course-list.html">Course</a>
 <ul class="submenu">
@@ -117,22 +119,23 @@
 </ul>
 </li>
 <li class="has-submenu">
-<a href="come-soon.html">Error</a>
+<a href="/come-soon">Error</a>
 <ul class="submenu">
-<li><a href="come-soon.html">Comeing soon</a></li>
+<li><a href="/come-soon">Comeing soon</a></li>
 <li><a href="error-404.html">404</a></li>
 <li><a href="error-500.html">500</a></li>
 <li><a href="under-construction.html">Under Construction</a></li>
 </ul>
 </li>
-<li><a href="faq.html">FAQ</a></li>
-<li><a href="support.html">Support</a></li>
-<li><a href="job-category.html">Category</a></li>
-<li><a href="cart.html">Cart</a></li>
-<li><a href="checkout.html">Checkout</a></li>
-<li><a href="login.html">Login</a></li>
-<li><a href="register.html">Register</a></li>
-<li><a href="forgot-password.html">Forgot Password</a></li>
+<li><a href="/faq">FAQ</a></li>
+<li><a href="/support">Support</a></li>
+<li class="active"><a href="/privacy-policy">Privacy Policy</a></li>
+<li><a href="/job_category">Category</a></li>
+<li><a href="/cart">Cart</a></li>
+<li><a href="/checkout">Checkout</a></li>
+<li><a href="/login">Login</a></li>
+<li><a href="/register">Register</a></li>
+<li><a href="/forgot-password">Forgot Password</a></li>
 </ul>
 </li>
 <li class="has-submenu">
@@ -146,16 +149,16 @@
 </ul>
 </li>
 <li class="login-link">
-<a href="login.html">Login / Signup</a>
+<a href="/login">Login / Signup</a>
 </li>
 </ul>
 </div>
 <ul class="nav header-navbar-rht">
 <li class="nav-item">
-<a class="nav-link header-sign" href="login.html">Signin</a>
+<a class="nav-link header-sign" href="/login">Signin</a>
 </li>
 <li class="nav-item">
-<a class="nav-link header-login" href="register.html">Signup</a>
+<a class="nav-link header-login" href="/register">Signup</a>
 </li>
 </ul>
 </div>
@@ -171,9 +174,9 @@
 <div class="breadcrumb-list">
 <nav aria-label="breadcrumb" class="page-breadcrumb">
 <ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-<li class="breadcrumb-item" aria-current="page">Pages</li>
-<li class="breadcrumb-item" aria-current="page">Wishlists</li>
+<li class="breadcrumb-item"><a href="/">Home</a></li>
+<li class="breadcrumb-item">Pages</li>
+<li class="breadcrumb-item">Privacy Policy</li>
 </ol>
 </nav>
 </div>
@@ -183,148 +186,56 @@
 </div>
 
 
-<section class="course-content">
+<div class="page-banner">
 <div class="container">
-<div class="card wish-card">
-<div class="card-header">
-<h5>Your Wishlist (03 items)</h5>
-</div>
-<div class="card-body">
 <div class="row">
-<div class="col-md-12">
-<div class="wishlist-item">
-<div class="row align-items-center">
-<div class="col-md-9">
-<div class="wishlist-detail">
-<div class="wishlist-img">
-<a href="course-details.html">
-<img alt="" src="/assets/img/course/course-01.jpg">
-</a>
-<div class="price-amt">
-<h4>$300</h4>
-</div>
-</div>
-<div class="wishlist-info">
-<h5><a href="course-details.html">Information About UI/UX Design Degree</a></h5>
-<div class="course-info d-flex align-items-center border-bottom-0 pb-0">
-<div class="rating-img d-flex align-items-center">
-<img src="/assets/img/icon/icon-01.svg" alt="">
-<p>12+ Lesson</p>
-</div>
-<div class="course-view d-flex align-items-center">
-<img src="/assets/img/icon/icon-02.svg" alt="">
-<p>9hr 30min</p>
-</div>
-</div>
-<div class="rating">
-<i class="fas fa-star filled"></i>
-<i class="fas fa-star filled"></i>
-<i class="fas fa-star filled"></i>
-<i class="fas fa-star filled"></i>
-<i class="fas fa-star"></i>
-<span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-3">
-<div class="remove-btn">
-<a href="javascript:;" class="btn">Remove</a>
-</div>
-</div>
-</div>
-</div>
-<div class="wishlist-item">
-<div class="row align-items-center">
-<div class="col-md-9">
-<div class="wishlist-detail">
-<div class="wishlist-img">
-<a href="course-details.html">
-<img alt="" src="/assets/img/course/course-02.jpg">
-</a>
-<div class="price-amt">
-<h4>$300</h4>
-</div>
-</div>
-<div class="wishlist-info">
-<h5><a href="course-details.html">Wordpress for Beginners - Master Wordpress Quickly</a></h5>
-<div class="course-info d-flex align-items-center border-bottom-0 pb-0">
-<div class="rating-img d-flex align-items-center">
-<img src="/assets/img/icon/icon-01.svg" alt="">
-<p>12+ Lesson</p>
-</div>
-<div class="course-view d-flex align-items-center">
-<img src="/assets/img/icon/icon-02.svg" alt="">
-<p>9hr 30min</p>
-</div>
-</div>
-<div class="rating">
-<i class="fas fa-star filled"></i>
-<i class="fas fa-star filled"></i>
-<i class="fas fa-star filled"></i>
-<i class="fas fa-star filled"></i>
-<i class="fas fa-star"></i>
-<span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-3">
-<div class="remove-btn">
-<a href="javascript:;" class="btn">Remove</a>
-</div>
-</div>
-</div>
-</div>
-<div class="wishlist-item">
-<div class="row align-items-center">
-<div class="col-md-9">
-<div class="wishlist-detail">
-<div class="wishlist-img">
-<a href="course-details.html">
-<img alt="" src="/assets/img/course/course-03.jpg">
-</a>
-<div class="price-amt">
-<h4>$300</h4>
-</div>
-</div>
-<div class="wishlist-info">
-<h5><a href="course-details.html">Sketch from A to Z (2022): Become an app designer</a></h5>
-<div class="course-info d-flex align-items-center border-bottom-0 pb-0">
-<div class="rating-img d-flex align-items-center">
-<img src="/assets/img/icon/icon-01.svg" alt="">
-<p>12+ Lesson</p>
-</div>
-<div class="course-view d-flex align-items-center">
-<img src="/assets/img/icon/icon-02.svg" alt="">
-<p>9hr 30min</p>
-</div>
-</div>
-<div class="rating">
-<i class="fas fa-star filled"></i>
-<i class="fas fa-star filled"></i>
-<i class="fas fa-star filled"></i>
-<i class="fas fa-star filled"></i>
-<i class="fas fa-star"></i>
-<span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-3">
-<div class="remove-btn">
-<a href="javascript:;" class="btn">Remove</a>
-</div>
-</div>
+<div class="col-md-12 col-12">
+<h1 class="mb-0">Privacy Policy</h1>
 </div>
 </div>
 </div>
 </div>
 
+
+<div class="page-content">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="terms-content">
+<div class="terms-text">
+<h3>Effective date: <span>23rd of March, 2022</span></h3>
+<h4>This is a H1, Perfect's for titles.</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Stress, for the United States element ante. Duis cursus, mi quis viverra ornare, eros pain, sometimes none at all, freedom of the living creature was as the profit and financial security. Jasmine neck adapter and just running it lorem makeup sad smile of the television set.</p>
+<h5>This is a H2's perfect for the titles.</h5>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Stress, for the United States element ante. Duis cursus, mi quis viverra ornare, eros pain , sometimes none at all, freedom of the living creature was as the profit and financial security. Jasmine neck adapter and just running it lorem makeup hairstyle. Now sad smile of the television set.</p>
+<h5>This is a H2's perfect for the titles.</h5>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Stress, for the United States element ante. Duis cursus, mi quis viverra ornare, eros pain , sometimes none at all, freedom of the living creature was as the profit and financial security. Jasmine neck adapter and just running it lorem makeup hairstyle. Now sad smile of the television set.</p>
+</div>
+<div class="terms-text">
+<h4>This is a H2's perfect for the titles.</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Stress, for the United States element ante. Duis cursus, mi quis viverra ornare, eros pain , sometimes none at all, freedom of the living creature was as the profit and financial security. Jasmine neck adapter and just running it lorem makeup hairstyle. Now sad smile of the television set.</p>
+<ul>
+<li>More than 60+ components</li>
+<li>Five ready tests</li>
+<li>Coming soon page </li>
+<li>Check list with left icon</li>
+<li>And much more ...</li>
+</ul>
+</div>
+<div class="terms-text">
+<h4>This is a H2's perfect for the titles.</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Stress, for the United States element ante. Duis cursus, mi quis viverra ornare, eros pain , sometimes none at all, freedom of the living creature was as the profit and financial security. Jasmine neck adapter and just running it lorem makeup hairstyle. Now sad smile of the television set.</p>
+</div>
+<div class="terms-text">
+<h4>Changes about terms</h4>
+<p>If we change our terms of use we will post those changes on this page. Registered users will be sent an email that outlines changes made to the terms of use.</p>
+<p>Questions? Please email us at <a href="javascript:void(0);"><span class="__cf_email__" data-cfemail="d5b1a7b0b4b8a6b9b8a695b0adb4b8a5b9b0fbb6bab8">[email&#160;protected]</span></a></p>
 </div>
 </div>
 </div>
-</section>
+</div>
+</div>
+</div>
 
 
 <footer class="footer">
@@ -350,8 +261,8 @@
 <h2 class="footer-title">For Instructor</h2>
 <ul>
 <li><a href="instructor-profile.html">Profile</a></li>
-<li><a href="login.html">Login</a></li>
-<li><a href="register.html">Register</a></li>
+<li><a href="/login">Login</a></li>
+<li><a href="/register">Register</a></li>
 <li><a href="instructor-list.html">Instructor</a></li>
 <li><a href="deposit-instructor-dashboard.html"> Dashboard</a></li>
 </ul>
@@ -364,8 +275,8 @@
 <h2 class="footer-title">For Student</h2>
 <ul>
 <li><a href="student-profile.html">Profile</a></li>
-<li><a href="login.html">Login</a></li>
-<li><a href="register.html">Register</a></li>
+<li><a href="/login">Login</a></li>
+<li><a href="/register">Register</a></li>
 <li><a href="students-list.html">Student</a></li>
 <li><a href="deposit-student-dashboard.html"> Dashboard</a></li>
 </ul>
@@ -388,7 +299,7 @@
 </div>
 <p>
 <img src="/assets/img/icon/icon-19.svg" alt="" class="img-fluid">
-<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fd998f989c908e91908ebd98859c908d9198d39e9290">[email&#160;protected]</a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="33574156525e405f5e4073564b525e435f561d505c5e">[email&#160;protected]</a>
 </p>
 <p class="mb-0">
 <img src="/assets/img/icon/icon-21.svg" alt="" class="img-fluid">
@@ -411,8 +322,8 @@
 <div class="col-md-6">
 <div class="privacy-policy">
 <ul>
-<li><a href="term-condition.html">Terms</a></li>
-<li><a href="privacy-policy.html">Privacy</a></li>
+<li><a href="/terms">Terms</a></li>
+<li><a href="/privacy-policy">Privacy</a></li>
 </ul>
 </div>
 </div>
