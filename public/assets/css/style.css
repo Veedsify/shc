@@ -1,5 +1,4 @@
-﻿
-html {
+﻿html {
     height: 100%
 }
 
@@ -4044,7 +4043,6 @@ input[type=password]::-ms-clear {
 }
 
 .header-border {
-    border-bottom: 1px solid #dfdfe0;
     padding-top: 12px;
     padding-bottom: 12px
 }
@@ -12642,6 +12640,37 @@ input[type=password]::-ms-clear {
         font-size: 15px
     }
 }
+/* 
+#dash_btn {
+    display: none;
+}
+
+.dash_btn_dropdown {
+    display: none;
+}
+
+@media(max-width:767.98px) {
+    
+    #dash_btn {
+        display: block;
+        width: 60px;
+    }
+
+    #dash_btn ul.dash_btn_dropdown {
+        position: fixed;
+        right: 10px;
+        top: 63px;
+        background: #fff;
+        height: 180px;
+        width: 180px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #75757575;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+} */
 
 @media(max-width:767.98px) {
     .navbar-header {

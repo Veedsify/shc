@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 
-router.get('/', (req, res, next)=>{
+router.get('course-list', (req, res, next)=>{
     res.render('course-list')
 })
 router.get('/student', (req, res, next)=>{

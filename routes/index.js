@@ -10,6 +10,7 @@ const login = require('./login')
 const register = require('./register')                                                    
 const instructor = require('./instructor')                                                    
 const student = require('./student')                                                    
+const more = require('./more')                                                    
 const checkout = require('./checkout')                                                    
                                               
 
@@ -24,6 +25,7 @@ router.use('/login', login)
 router.use('/register', register)
 router.use('/instructor', instructor)
 router.use('/student', student)
+router.use('/more', more)
 router.use('/checkout', checkout)
 
 /* GET home page. */
